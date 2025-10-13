@@ -1,4 +1,5 @@
 import random
+from typing import List
 
 class ClasseAleatoria:
     def __init__(self) -> None:
@@ -15,3 +16,6 @@ class ClasseAleatoria:
     
     def gera_inteiro_passos(self, num1: int, num2: int, passos: int) -> int:
         return random.randrange(num1, num2, passos)
+    
+    def seleciona_elemento_lista(self, lista: List[str]) -> str:
+        return random.choice(lista)
