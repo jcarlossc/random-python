@@ -12,3 +12,6 @@ class ClasseAleatoria:
     
     def gera_inteiro_entre(self, num1: int, num2: int) -> int:
         return random.randint(num1, num2)
+    
+    def gera_inteiro_passos(self, num1: int, num2: int, passos: int) -> int:
+        return random.randrange(num1, num2, passos)
