@@ -22,3 +22,7 @@ class ClasseAleatoria:
     
     def seleciona_quantidade_elementos(self, lista: List, quantidade: int) -> int:
         return random.sample(lista, 6)
+    
+    def embaralha_lista(self, lista: List) -> str:
+        random.shuffle(lista)
+        return lista
