@@ -11,7 +11,9 @@ def main():
     print(f'Gera inteiro entre os parâmetros: {aleatorio.gera_inteiro_entre(1, 5)}')
     print(f'Gera inteiro com passos: {aleatorio.gera_inteiro_passos(1, 10, 2)}')
     frutas = ["maçã", "banana", "uva", "laranja"]
-    print(f'Seleciona elementos aleatório em lista: {aleatorio.seleciona_elemento_lista(frutas)}')
+    print(f'Seleciona elementos aleatórios em lista: {aleatorio.seleciona_elemento_lista(frutas)}')
+    numeros = list(range(1, 50))
+    print(f'Seleciona quantidade de elementos de lista: {aleatorio.seleciona_quantidade_elementos(numeros, 6)}')
 
 
 

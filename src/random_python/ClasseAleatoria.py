@@ -19,3 +19,6 @@ class ClasseAleatoria:
     
     def seleciona_elemento_lista(self, lista: List[str]) -> str:
         return random.choice(lista)
+    
+    def seleciona_quantidade_elementos(self, lista: List, quantidade: int) -> int:
+        return random.sample(lista, 6)
