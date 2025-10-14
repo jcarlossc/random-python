@@ -14,7 +14,8 @@ def main():
     print(f'Seleciona elementos aleatórios em lista: {aleatorio.seleciona_elemento_lista(frutas)}')
     numeros = list(range(1, 50))
     print(f'Seleciona quantidade de elementos de lista: {aleatorio.seleciona_quantidade_elementos(numeros, 6)}')
-
+    letras = ['a', 'b', 'c', 'd', 'e']
+    print(f'Embaralha os elementos da lista: {aleatorio.embaralha_lista(letras)}')
 
 
 
