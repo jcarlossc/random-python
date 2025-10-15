@@ -1,5 +1,5 @@
 # 📌 Projeto: Estudo do Módulo Random em Python 
-## 📌 Projeto simples, usado como modelo para uma postagem no Blogger.
+ Projeto simples, usado como modelo para uma postagem no Blogger.
 
 Este projeto apresenta uma classe chamada **`ClasseRandom`**, criada com o objetivo de explorar e exemplificar as principais funções do módulo **`random`** da biblioteca padrão do Python.
 
@@ -23,6 +23,7 @@ Através de métodos organizados e documentados, o projeto demonstra como gerar 
 - Python 3.13+
 - Poetry → gerenciamento de dependências e empacotamento
 - Pytest → testes automatizados
+- mypy → teste de tipagem estática
 - Visua Studio Code
 - Windows 10
 
@@ -46,7 +47,6 @@ andom-python/
 ├── poetry.lock
 ├── pyproject.toml
 └── README.md 
-
 ```
 ---
 
@@ -123,17 +123,16 @@ Este projeto está licenciado sob a MIT License.
 ---
 
 ## 📌 Contatos
-📌Autor: Carlos da Costa
-📌Recife, PE - Brasil
-📌Telefone: +55 81 99712 9140
-📌Telegram: @jcarlossc
-📌Blogger linguagem R: https://informaticus77-r.blogspot.com/
-📌Blogger linguagem Python: https://informaticus77-python.blogspot.com/
-📌Email: jcarlossc1977@gmail.com
-📌Portfólio em construção: https://portfolio-carlos-costa.netlify.app/
-📌LinkedIn: https://www.linkedin.com/in/carlos-da-costa-669252149/
-📌GitHub: https://github.com/jcarlossc
-📌Kaggle: https://www.kaggle.com/jcarlossc/
+📌Autor: Carlos da Costa<br>
+📌Recife, PE - Brasil<br>
+📌Telefone: +55 81 99712 9140<br>
+📌Telegram: @jcarlossc<br>
+📌Blogger linguagem R: https://informaticus77-r.blogspot.com/<br>
+📌Blogger linguagem Python: https://informaticus77-python.blogspot.com/<br>
+📌Email: jcarlossc1977@gmail.com<br>
+📌Portfólio em construção: https://portfolio-carlos-costa.netlify.app/<br>
+📌LinkedIn: https://www.linkedin.com/in/carlos-da-costa-669252149/<br>
+📌GitHub: https://github.com/jcarlossc<br>
+📌Kaggle: https://www.kaggle.com/jcarlossc/<br>
 📌Twitter/X: https://x.com/jcarlossc1977
-
 ---
