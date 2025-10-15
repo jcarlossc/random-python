@@ -1,17 +1,17 @@
 import random
 from typing import List
 
-class ClasseAleatoria:
+class ClasseRandom:
     def __init__(self) -> None:
         pass
 
     def gera_float(self) -> float:
         return random.random()
     
-    def gera_float_entre(self, num1: float, num2: float) -> float:
+    def gera_float_com_parametro(self, num1: float, num2: float) -> float:
         return random.uniform(num1, num2)
     
-    def gera_inteiro_entre(self, num1: int, num2: int) -> int:
+    def gera_inteiro_com_parametro(self, num1: int, num2: int) -> int:
         return random.randint(num1, num2)
     
     def gera_inteiro_passos(self, num1: int, num2: int, passos: int) -> int:
@@ -26,3 +26,6 @@ class ClasseAleatoria:
     def embaralha_lista(self, lista: List) -> str:
         random.shuffle(lista)
         return lista
+
+    def seleciona_multiplos_elementos(self, lista: List, peso: List, quantidade: int) -> str:
+        return random.choices(lista, peso, k = quantidade)    
