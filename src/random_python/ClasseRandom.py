@@ -86,7 +86,7 @@ class ClasseRandom:
         """
         return random.sample(lista, quantidade)
     
-    def embaralha_lista(self, lista: List) -> str:
+    def embaralha_lista(self, lista: List) -> List:
         """
             Embaralha elementos de uma lista.
 
@@ -99,7 +99,7 @@ class ClasseRandom:
         random.shuffle(lista)
         return lista
 
-    def seleciona_multiplos_elementos(self, lista: List, peso: List, quantidade: int) -> str:
+    def seleciona_multiplos_elementos(self, lista: List, peso: List, quantidade: int) -> List:
         """
             Seleciona elementos de uma lista de acordo com
             pesos (passados como floats) e quantidades.
