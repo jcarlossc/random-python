@@ -16,6 +16,9 @@ packages = [{include = "random_python", from = "src"}]
 [tool.poetry.scripts]
 random = "random_python.main:main"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.2"
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"

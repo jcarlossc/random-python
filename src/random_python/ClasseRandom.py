@@ -2,6 +2,9 @@ import random
 from typing import List
 
 class ClasseRandom:
+    """
+        Classe de estudo do módulo random.
+    """
     def __init__(self) -> None:
         pass
 
