@@ -1,5 +1,5 @@
 import pytest
-from src.random_python.ClasseRandom import ClasseRandom
+from random_python.ClasseRandom import ClasseRandom
 
 random_class = ClasseRandom()
 

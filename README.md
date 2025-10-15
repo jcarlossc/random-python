@@ -1,0 +1,139 @@
+# 📌 Projeto: Estudo do Módulo Random em Python 
+## 📌 Projeto simples, usado como modelo para uma postagem no Blogger.
+
+Este projeto apresenta uma classe chamada **`ClasseRandom`**, criada com o objetivo de explorar e exemplificar as principais funções do módulo **`random`** da biblioteca padrão do Python.
+
+Através de métodos organizados e documentados, o projeto demonstra como gerar números aleatórios, selecionar elementos de listas, embaralhar sequências e trabalhar com pesos probabilísticos.
+
+---
+
+## 📌 Conceitos Estudados
+
+- Funções principais do módulo random:
+- random(), uniform(), randint(), randrange()
+- choice(), sample(), shuffle(), choices()
+- Tipagem estática com typing.List
+- Estrutura de testes automatizados com pytest
+- Gerenciamento de ambiente e dependências com Poetry
+
+---
+
+## 📌 Tecnologias Utilizadas
+
+- Python 3.13+
+- Poetry → gerenciamento de dependências e empacotamento
+- Pytest → testes automatizados
+- Visua Studio Code
+- Windows 10
+
+---
+
+## 📌 Estrutura do Projeto
+
+```
+andom-python/
+│
+├── src/
+│   └── random_python/
+│           └── init.py
+│           ├── ClasseRandom.py
+│           └── main.py
+├── tests/
+│    └── test_ClasseRandom.py 
+│
+├── .gitignore
+├── LICENSE
+├── poetry.lock
+├── pyproject.toml
+└── README.md 
+
+```
+---
+
+## 📌 Instalação e Configuração do projeto
+
+### 📌 1. Clonar repositório
+
+```
+git clone https://github.com/jcarlossc/random-python.git
+cd random-python
+```
+
+Este projeto utiliza o [**Poetry**](https://python-poetry.org/) para gerenciar dependências, empacotamento e ambiente virtual.
+
+### 📌 2. Instalar o Poetry
+
+No terminal:
+
+```bash
+pip install poetry
+
+```
+
+### 📌 3. Verificar instalação
+
+```
+poetry --version
+
+```
+
+### 📌 4. Instalar dependências do projeto
+
+```
+poetry install
+```
+
+---
+
+### 5. Executar projeto
+
+```
+poetry run random
+```
+
+## 📌 Testes Automatizados com Pytest
+
+```
+poetry run pytest -v
+```
+
+---
+
+## 📌 Testes de tipagem estática: mypy
+
+```
+poetry run mypy .
+```
+
+---
+
+## 📌 Contribuições
+Se quiser contribuir:
+
+- Faça um fork deste repositório
+- Crie uma branch para sua feature ou correção (git checkout -b minha-feature)
+- Faça commits descritos claramente
+- Submeta um Pull Request
+
+---
+
+## 📌 Licença
+Este projeto está licenciado sob a MIT License.
+
+---
+
+## 📌 Contatos
+📌Autor: Carlos da Costa
+📌Recife, PE - Brasil
+📌Telefone: +55 81 99712 9140
+📌Telegram: @jcarlossc
+📌Blogger linguagem R: https://informaticus77-r.blogspot.com/
+📌Blogger linguagem Python: https://informaticus77-python.blogspot.com/
+📌Email: jcarlossc1977@gmail.com
+📌Portfólio em construção: https://portfolio-carlos-costa.netlify.app/
+📌LinkedIn: https://www.linkedin.com/in/carlos-da-costa-669252149/
+📌GitHub: https://github.com/jcarlossc
+📌Kaggle: https://www.kaggle.com/jcarlossc/
+📌Twitter/X: https://x.com/jcarlossc1977
+
+---
