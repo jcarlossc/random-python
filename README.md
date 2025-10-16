@@ -50,6 +50,20 @@ andom-python/
 ```
 ---
 
+## 📌 Descrição dos Métodos da Classe
+| Método |	Descrição |	Retorno |
+| ------ | --------- | ------- |
+| gera_float() |	Gera número aleatório entre 0 e 1. |	float |
+| gera_float_com_parametro(num1, num2) |	Gera float entre num1 e num2. |	float |
+| gera_inteiro_com_parametro(num1, num2) |	Gera inteiro entre num1 e num2. |	int |
+| gera_inteiro_passos(num1, num2, passos) |	Gera inteiro com saltos definidos por passos. |	int |
+| seleciona_elemento_lista(lista) |	Retorna um elemento aleatório da lista. |	str |
+| seleciona_quantidade_elementos(lista, quantidade) |	Retorna vários elementos distintos da lista. |	list |
+| embaralha_lista(lista) |	Embaralha elementos de uma lista. |	list |
+| seleciona_multiplos_elementos(lista, peso, quantidade) |	Seleciona elementos com base em pesos probabilísticos. |	list |
+
+---
+
 ## 📌 Instalação e Configuração do projeto
 
 ### 📌 1. Clonar repositório
@@ -85,7 +99,7 @@ poetry install
 
 ---
 
-### 5. Executar projeto
+### 📌 5. Executar projeto
 
 ```
 poetry run random
